@@ -33,7 +33,7 @@ Server B name - `mysql client` # Install mysql client software
 
 After creating the two instances on EC2, on the MySQL-Server do the following settings.
 
-> Add a new Inbound Rule, for MySQL 3306 port and IP of the MySQL-Client server on the MySQL-SERVER instance
+> Add a new Inbound Rule for MySQL 3306 port and IP of the MySQL-Client server on the MySQL-SERVER instance
 
 <img src="images/image2.png" width="600">
 
@@ -49,11 +49,11 @@ We change the `127.0.0.1` on the bind-address to `0.0.0.0`
 
 It is time to login from the mysql-client side to the MySQL Server
 
-First, you need to create a user on the client side who will be loggin into the server side.
+First, you need to create a user on the server side who will be loggin into the server from the client side.
 
-`mysql -u ade -p -h Private_IP_Server` then enter the user password
+`mysql -u ade -p -h Private_IP_Server` then enter the user password. 
 
-<img src="images/image3.png" width="600">
+<img src="images/image4.png" width="600">
 
 
 
