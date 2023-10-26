@@ -55,6 +55,9 @@ First, you need to create a user on the server side who will be loggin into the 
 
 <img src="images/image4.png" width="600">
 
+Awesome! You have now been able to login the Server from the client side. 
+
+Hope to see you on the next one
 
 
 
